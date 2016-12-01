@@ -1,0 +1,24 @@
+.a {
+    background-color:#f66733;
+    text-align:center;
+}
+
+.b {
+    background-color: lightgreen;
+    width:60%;
+
+    margin:0 auto;
+}
+
+.c {
+    text-align:center;
+}
+
+.d {
+    background-color:darkmagenta;
+    display:inline-block;
+    width:50%;
+    margin:0 25%;
+    text-align:center;
+
+}
