@@ -1,26 +1,53 @@
-.container {
+.promotion {
     background-color:#fa6938;
      color:#FFF;
     display:block
     box-sizing: border-box;
-    padding:1px;
+    padding:.01%;
     margin:-8px;
 }
 
-ul li {
+ul {
+    margin-left:10%;
+}
+
+li {
     display:inline-block;
+}
+.promotion a {
+    text-decoration:none;
+    color:white;
 }
 
 #free {
     border:1px solid white;
     border-radius:5px;
+    padding:0.2%;
+    /*background-color:red;*/
 }
 
-a {
+.promotion:hover {
+    background-color:#33a1ff;
+}
+
+.navigation {
+    border:1px solid black;
+    margin:.5% -.51% 0% -.51%;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.logo {
+    width: 128px;
+    height: 117px;
+    margin-top:1%;
+    margin-left:12.9%;
+}
+
+.navigation a {
     text-decoration:none;
-    color:white;
-}
+    display:flex;
+    justify-content:space-between;
 
-/*a:hover {
-    color:#33a1ff''
-}*/
+}
