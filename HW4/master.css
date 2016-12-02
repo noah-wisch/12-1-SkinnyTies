@@ -1,41 +1,47 @@
 .promotion {
     background-color:#fa6938;
-     color:#FFF;
-    display:block
-    box-sizing: border-box;
-    padding:.01%;
-    margin:-8px;
+    color:#FFF;
+    display:block;
+    padding:7px 0;
+    /*margin:-8px;*/
 }
 
-ul {
-    margin-left:10%;
+* {
+margin:0;
+font-family:Tahoma;
 }
 
-li {
+.money li {
+    margin-left:1%;
     display:inline-block;
 }
+
+
 .promotion a {
     text-decoration:none;
     color:white;
-}
-
-#free {
-    border:1px solid white;
-    border-radius:5px;
-    padding:0.2%;
-    /*background-color:red;*/
 }
 
 .promotion:hover {
     background-color:#33a1ff;
 }
 
-.navigation {
-    border:1px solid black;
-    margin:.5% -.51% 0% -.51%;
-    display:flex;
-    justify-content:space-between;
+/* free shipping button */
+.promotion .title {
+    text-transform:uppercase;
+    float:left;
+    background:lightgray;
+    border:1px sold lightgray;
+    opacity:0.5;
+    border-radius:5px;
+    padding:0px 8px 0px 8px;
+    margin-left:15%;
+    letter-spacing:1px;    
+}
 
+.navigation {
+    margin-left:3%;
+    display:inline-block
 }
 
 .logo {
@@ -49,5 +55,4 @@ li {
     text-decoration:none;
     display:flex;
     justify-content:space-between;
-
 }
