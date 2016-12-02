@@ -1,17 +1,33 @@
-.promotion {
-    background-color:#fa6938;
-}
-
 * {
 margin:0;
-font-family:Tahoma;
+font-family:Tahoma, sans-serif;
+font-weight:lighter;
+}
+
+.promotion {
+    background-color:#fa6938;
+    padding:5px;
+}
+
+/* free shipping button */
+.promotion .title {
+    text-transform:uppercase;
+    float:left;
+    background:darkslategray;
+    opacity:0.5;
+    border-radius:3px;
+    padding:.5px 8px .5px 8px;
+    margin-left:15%;
+    letter-spacing:1px; 
+    font-weight:lighter; 
+    color:#FFF;  
 }
 
 .money li {
     margin-left:1%;
     display:inline-block;
+    font-size:.8em;
 }
-
 
 .promotion a {
     text-decoration:none;
@@ -20,26 +36,67 @@ font-family:Tahoma;
 
 .promotion:hover {
     background-color:#33a1ff;
+    color:white;
 }
 
-/* free shipping button */
-.promotion .title {
-    text-transform:uppercase;
-    float:left;
-    background:lightgray;
-    border:1px sold lightgray;
-    opacity:0.5;
-    border-radius:5px;
-    padding:0px 8px 0px 8px;
-    margin-left:15%;
-    letter-spacing:1px;    
+/*navigation bar */
+.navigation{
+    display:block;
+    /*border:1px solid black;*/
 }
 
-.navigation {
-    margin-left:3%;
-    display:inline-block
+.navigation > * {
+    display: inline-block;
 }
 
 .logo {
     height: 117px;
+}
+
+.annoying ul {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+/* Form */
+form {
+
+}
+
+input {
+    border:1px solid grey;
+    background-color:white;
+    border-radius:2px;
+}
+
+#search {
+    background-color:lightgray;
+    border-radius:2px;
+    padding:2px;
+}
+
+/* main */
+.ties ul{
+    display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+    background-color:#F4F4F4;
+    height:155px;
+}
+
+
+.ties {
+    background-color:#F4F4F4;
+    padding-bottom:2%;  
+}
+
+h1 {
+    text-align:center;
+    font-size:3em;
+    font-weight:lighter;
+}
+
+#ties {
+    float:bottom;
 }
