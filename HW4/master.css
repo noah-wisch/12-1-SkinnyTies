@@ -76,27 +76,4 @@ input {
     padding:2px;
 }
 
-/* main */
-.ties ul{
-    display:flex;
-    justify-content:space-between;
-    list-style-type: none;
-    background-color:#F4F4F4;
-    height:155px;
-}
-
-
-.ties {
-    background-color:#F4F4F4;
-    padding-bottom:2%;  
-}
-
-h1 {
-    text-align:center;
-    font-size:3em;
-    font-weight:lighter;
-}
-
-#ties {
-    float:bottom;
-}
+/* footer will go here */
