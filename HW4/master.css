@@ -1,25 +1,19 @@
 .promotion {
     background-color:#fa6938;
-     color:#FFF;
-    display:block
-    box-sizing: border-box;
-    padding:1px;
-    margin:-8px;
 }
 
-ul li {
-    display:inline-block;
+* {
+margin:0;
+font-family:Tahoma;
+}
+
+.money li {
     margin-left:1%;
+    display:inline-block;
 }
 
-#free {
-    border:1px solid white;
-    border-radius:5px;
-    padding:0.2%;
-    /*background-color:red;*/
-}
 
-a {
+.promotion a {
     text-decoration:none;
     color:white;
 }
@@ -28,8 +22,24 @@ a {
     background-color:#33a1ff;
 }
 
+/* free shipping button */
+.promotion .title {
+    text-transform:uppercase;
+    float:left;
+    background:lightgray;
+    border:1px sold lightgray;
+    opacity:0.5;
+    border-radius:5px;
+    padding:0px 8px 0px 8px;
+    margin-left:15%;
+    letter-spacing:1px;    
+}
+
+.navigation {
+    margin-left:3%;
+    display:inline-block
+}
+
 .logo {
-    width: 128px;
     height: 117px;
-    margin-top:10px;
 }
