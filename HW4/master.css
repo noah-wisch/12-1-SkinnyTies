@@ -4,6 +4,15 @@ font-family:Tahoma, sans-serif;
 font-weight:lighter;
 }
 
+* a {
+    text-decoration:none;
+    color:gray;
+}
+
+a:hover {
+    color:#33a1ff;
+}
+
 .promotion {
     background-color:#fa6938;
     padding:5px;
@@ -14,7 +23,7 @@ font-weight:lighter;
     text-transform:uppercase;
     float:left;
     background:darkslategray;
-    opacity:0.5;
+    opacity:.5;
     border-radius:3px;
     padding:.5px 8px .5px 8px;
     margin-left:15%;
@@ -24,7 +33,6 @@ font-weight:lighter;
 }
 
 .money li {
-    margin-left:1%;
     display:inline-block;
     font-size:.8em;
 }
@@ -51,16 +59,19 @@ font-weight:lighter;
 
 .logo {
     height: 117px;
+    margin-left:5%;
 }
 
-.annoying ul {
+.annoying {
     display:flex;
     list-style-type: none;
     justify-content: space-between;
+    width:35%;
+    margin-bottom:10px;
 }
 
 /* Form */
-form {
+form a {
 
 }
 
@@ -75,5 +86,4 @@ input {
     border-radius:2px;
     padding:2px;
 }
-
 /* footer will go here */
