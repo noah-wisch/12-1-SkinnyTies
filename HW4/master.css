@@ -36,6 +36,7 @@ a:hover {
 .money li {
     display:inline-block;
     font-size:.8em;
+    margin-left:1%;
 }
 
 .promotion a {
@@ -50,43 +51,57 @@ a:hover {
 
 /*navigation bar */
 .navigation{
-    display:block;
+    display:flex;
+    justify-content:space-between;
     border-bottom:2px dashed gray;
     /*border:1px solid black;*/
 }
 
-.navigation > * {
+/*.navigation > * {
     display: inline-block;
-}
+}*/
 
 .logo {
     height: 117px;
-    margin-left:5%;
+    margin-left:14.5%;
 }
 
 .annoying {
     display:flex;
     list-style-type: none;
     justify-content: space-between;
-    width:35%;
-    margin-bottom:10px;
+    width:30%;
+    margin-top:3.2%;
+    margin-right:5%;
+    font-size:1.5em;
+    font-weight:lighter;
 }
 
 /* Form */
-form a {
-
+form {
+    margin-right:7%;
+    margin-top:2.8%;
+    width:300px;
 }
 
 input {
     border:1px solid grey;
     background-color:white;
     border-radius:2px;
+    display:inline-block;
+    /*display:flex;
+    justify-content:space-between;*/
+}
+
+#input {
+    display:inline-block;
 }
 
 #search {
     background-color:lightgray;
     border-radius:2px;
     padding:2px;
+    display:inline-block;
 }
 /* footer will go here */
 /*#x p {
@@ -138,4 +153,26 @@ input {
     color:white;
     padding: 3px 5px 3px 5px;
     text-transform:uppercase;
+}
+
+#some a{
+    float:left;
+    width:50%;
+}
+
+span {
+
+}
+
+/* contact us section */
+.contactus {
+    display:flex;
+    justify-content:space-between;
+    width:40%;
+    margin-left:11%;
+    padding-bottom:40px;
+}
+
+.contactus ul {
+     list-style:none;
 }

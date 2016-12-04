@@ -53,6 +53,7 @@ h1 {
 
 .triple h2 {
     position:absolute;
+    text-align:right;
 }
 
 .triple ul {
