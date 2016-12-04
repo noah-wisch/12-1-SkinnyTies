@@ -31,13 +31,14 @@ h1 {
 /* bow ties bar */
 .triple {
     margin-top:10%;
+    background-color:#FFF;
 }
 
 .triple ul li {
     color:black;
     display:flex;
     justify-content:space-between;
-    margin-left:4%;
+    margin-left:8%;
 }
 
 .triple img {
@@ -52,7 +53,10 @@ h1 {
 
 .triple h2 {
     position:absolute;
-    margin-left:200px; 
+}
+
+.triple ul {
+    margin-left:75px;
 }
 
 /* story section */

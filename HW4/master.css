@@ -51,6 +51,7 @@ a:hover {
 /*navigation bar */
 .navigation{
     display:block;
+    border-bottom:2px dashed gray;
     /*border:1px solid black;*/
 }
 
@@ -88,3 +89,53 @@ input {
     padding:2px;
 }
 /* footer will go here */
+/*#x p {
+    text-align:center;
+    color:gray;
+}*/
+
+.weekly {
+    display:flex;
+    justify-content:space-between;
+    width:75%;
+    margin-top:5%;
+    margin-left:170px;
+}
+
+#weekly img {
+    height:155px;
+    border-radius:3px;
+}
+
+#weekly img:hover {
+    border:2px solid darkslategray;
+}
+
+#guide img {
+    height:155px;
+    border-radius:3px;
+}
+
+#guide img:hover {
+    border:2px solid darkslategray;
+}
+
+#loop p {
+    /*margin-right:450px;*/
+    font-size:.9em;
+}
+
+#email {
+    /*background-color:lightgray;*/
+    border-radius:2px;
+    padding:2px;
+}
+
+#sub {
+    border:1px solid grey;
+    background-color:#33a1ff;
+    border-radius:2px; 
+    color:white;
+    padding: 3px 5px 3px 5px;
+    text-transform:uppercase;
+}
