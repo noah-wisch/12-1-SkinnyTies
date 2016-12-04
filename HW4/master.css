@@ -89,12 +89,22 @@ input {
     background-color:white;
     border-radius:2px;
     display:inline-block;
-    /*display:flex;
-    justify-content:space-between;*/
+}
+
+#signing {
+    float:right;
+    margin-right:31%;
+    font-size:.7em;
+    text-transform:uppercase;
 }
 
 #input {
     display:inline-block;
+    padding:2px 10px 2px 10px;
+}
+#input:hover {
+    border:1px solid lightgray;
+    border-radius:2px;
 }
 
 #search {
@@ -123,7 +133,7 @@ input {
 }
 
 #weekly img:hover {
-    border:2px solid darkslategray;
+    border:1px solid lightgray;
 }
 
 #guide img {
@@ -132,7 +142,7 @@ input {
 }
 
 #guide img:hover {
-    border:2px solid darkslategray;
+    border:1px solid lightgray;
 }
 
 #loop p {
@@ -155,6 +165,10 @@ input {
     text-transform:uppercase;
 }
 
+#sub:hover {
+    background-color:#318fe0;
+}
+
 #some a{
     float:left;
     width:50%;
@@ -175,4 +189,16 @@ span {
 
 .contactus ul {
      list-style:none;
+}
+
+#here {
+    background-color:#a2afc0;
+    border-radius:2px;
+    color:#FFF;
+    font-weight:lighter;
+    padding:3%;
+}
+
+#contact {
+    margin-left:20%;
 }

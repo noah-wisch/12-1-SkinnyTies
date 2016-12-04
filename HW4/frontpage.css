@@ -76,6 +76,6 @@ h1 {
 }
 
 .triple ul li img:hover {
-    border:2px solid darkslategray;
+    border:1px solid lightgray;
 }
 
