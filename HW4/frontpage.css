@@ -35,15 +35,13 @@ h1 {
 
 .triple ul li {
     color:black;
-    /*width:33%;*/
     display:flex;
     justify-content:space-between;
-    margin-left:1%;
+    margin-left:4%;
 }
 
 .triple img {
     height:200px;
-    text-align:left;
     border-radius:2px;
 }
 
@@ -57,6 +55,7 @@ h1 {
     margin-left:200px; 
 }
 
+/* story section */
 #story p {
     font-size:2em;
 }
@@ -69,5 +68,9 @@ h1 {
 #story a {
     text-transform:uppercase;
     font-size:1em;
+}
+
+.triple ul li img:hover {
+    border:2px solid darkslategray;
 }
 
