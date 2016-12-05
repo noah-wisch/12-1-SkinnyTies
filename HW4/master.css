@@ -1,13 +1,13 @@
 * {
 margin:0;
-font-family:Tahoma, sans-serif;
+/*font-family:Tahoma, sans-serif;*/
 font-weight:lighter;
-padding:0px;
+/*padding:0px;*/
 }
 
 * a {
     text-decoration:none;
-    color:gray;
+    /*color:gray;*/
 }
 
 a:hover {
@@ -77,6 +77,14 @@ a:hover {
     font-weight:lighter;
 }
 
+.navigation a {
+    color:gray;
+}
+
+.navigation a:hover {
+    color:#33a1ff;
+}
+
 /* Form */
 form {
     margin-right:7%;
@@ -122,7 +130,7 @@ input {
 .weekly {
     display:flex;
     justify-content:space-between;
-    width:75%;
+    width:80%;
     margin-top:5%;
     margin-left:170px;
 }
@@ -134,6 +142,14 @@ input {
 
 #weekly img:hover {
     border:1px solid lightgray;
+}
+
+.weekly a {
+    color:#33a1ff;
+}
+
+.weekly a:hover {
+    color:dodgerblue;
 }
 
 #guide img {
@@ -169,22 +185,24 @@ input {
     background-color:#318fe0;
 }
 
-#some a{
-    float:left;
+/*#some a{
     width:50%;
-}
+}*/
 
-span {
-
+#some {
+    float:left;
+    width:67%;
 }
 
 /* contact us section */
 .contactus {
     display:flex;
     justify-content:space-between;
-    width:40%;
-    margin-left:11%;
+    margin-left:8%;
     padding-bottom:40px;
+    width:60%;
+    /*background-color:#F4F4F4;*/
+    margin-top:2%;
 }
 
 .contactus ul {
@@ -196,9 +214,30 @@ span {
     border-radius:2px;
     color:#FFF;
     font-weight:lighter;
-    padding:3%;
+    padding:2%;
+    padding-right:20px;
+    margin-left:470px;
 }
 
 #contact {
-    margin-left:20%;
+    /*margin-left:90%;*/
+    border:1px solid grey;
+    background-color:#33a1ff;
+    color:#FFF;
+    padding:2px 8px;
+   margin-left:180px;
+}
+
+#contact:hover {
+    background-color:#318fe0;
+}
+
+.first {
+    font-weight:bold;
+    color:black;
+}
+
+.contactus li {
+    color:gray;
+
 }
