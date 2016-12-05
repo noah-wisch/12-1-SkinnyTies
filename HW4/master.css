@@ -166,6 +166,12 @@ input {
     font-size:.9em;
 }
 
+.sprite {
+	background: url('imgs/sprite@2x.png') no-repeat -540px -160px;
+	width: 70px;
+	height: 70px;
+}
+
 #email {
     /*background-color:lightgray;*/
     border-radius:2px;

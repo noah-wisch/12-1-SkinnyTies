@@ -10,7 +10,6 @@
     display:flex;
     justify-content:space-between;
     list-style-type: none;
-    background-color:#F4F4F4;
     width:945px;
     margin-left:20%;
 }
@@ -38,7 +37,8 @@ h1 {
     color:black;
     display:flex;
     justify-content:space-between;
-    margin-left:8%;
+    margin-left:11%;
+    width:28%;
 }
 
 .triple img {
@@ -52,7 +52,7 @@ h1 {
 }
 
 .triple h2 {
-    position:absolute;
+    position:relative;
     text-align:right;
 }
 
